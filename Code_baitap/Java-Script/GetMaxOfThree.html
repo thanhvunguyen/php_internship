@@ -1,0 +1,24 @@
+<html>
+    <body>
+    <input type="number" name="" id="nb1" value="" required="" placeholder="Input number one">
+    <input type="number" name="" id="nb2" value="" required="" placeholder="Input number two">
+    <input type="number" name="" id="nb3" value="" required="" placeholder="Input number three">
+    <input type="submit" id="show-btn" value="Get Max" />
+    <h3 id="showmax"></h3>      
+        <script language="javascript">
+            var button = document.getElementById("show-btn");
+            button.onclick = function()
+            {
+            	var number1 = document.getElementById("nb1").value;
+            	var number2 = document.getElementById("nb2").value;
+                var number3 = document.getElementById("nb3").value;
+            	if(number1 == "" || number2 == "" || number3 == ""){
+            		alert("Please input data");
+            		return false;
+            	}
+            	var max = Math.max(number1,number2,number3);
+            	 document.getElementById("showmax").innerHTML = "Max is: " + max;
+            };
+        </script>
+    </body>
+</html>

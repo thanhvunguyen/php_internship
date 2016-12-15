@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EXAMPLE BOOTSTRAP</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <style>
+        .color_td{
+            background-color: #eef1f5;
+        }
+        .button{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+ <form>
+    <div style=" margin-top: 40px; " class="container">
+       
+      
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Họ và tên: </div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" required="">
+                        </div>
+                    </div>
+                </div>
+
+         <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Giới tính:</div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <input type="radio" class="" name="sex" required=""> Nam
+
+                              <input type="radio" class="" name="sex" required=""> Nữ
+                            
+                        </div>
+                    </div>
+                </div>
+                  <div class="row" style="margin-bottom: 15px;">
+                    <div class="col-sm-4 col-md-4 left color_td">Ngày sinh</div>
+                    <div class="col-sm-8 col-md-8">
+                          <div class="input-group date" data-provide="datepicker">
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                    <input type="date" name="birthday" class="form-control" required="">
+                                </div>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Thành phố</div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <select name="city" class="form-control" required="">
+                                <option value="">---Chọn thành phố---</option>
+                                <option value="1">Đà Nẵng</option>
+                                <option value="2">Hải Phòng</option>
+                                <option value="3">Hà Nội</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+           <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Email</div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="abc@gmail.com" required="">
+                        </div>
+                    </div>
+                </div>
+
+             
+
+        </div>
+       
+    
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+     <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Tên đăng nhập: </div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" required="">
+                        </div>
+                    </div>
+                </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Password: </div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <input type="password" class="form-control"  name="password" required="">
+                        </div>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-sm-4 col-md-4 left color_td">Nhập lại Password: </div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <input type="password" class="form-control"  name="repassword" required="">
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+</div>
+    <div class="button">
+    <input class="btn btn-primary btn-lg active" type="submit" name="submit" value="Submit">
+    <input class="btn btn-primary btn-lg active" type="reset" name="reset" value="Reset">
+</div>
+</form>
+</body>
+</html>
