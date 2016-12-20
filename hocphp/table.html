@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Table</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="TrangChuAdmin.html"><i class="fa fa-home fa-fw"></i> Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="quanlynguoidung.html"><i class="fa fa-user fa-fw"></i> Quản lý người dùng</a>     
+                        </li>
+                        <li>
+                            <a href="dangki_dangnhap.html" target="_blank"><i class="fa fa-user fa-fw"></i> Thêm tài khoản người dùng</a>     
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-cutlery fa-fw"></i> Quản lý sân</a>
+                        </li>
+                        <li>
+                            <a href="Googlemaps.html"><i class="fa fa-map-marker"></i> Google Maps</a>
+                        </li>
+                        <p> 
+                            <h4>
+                                <i class="fa fa-search">
+                                    <b>Tìm kiếm sân</b>
+                                </i>
+                            </h4>
+                        </p>
+                        <div id="cphMain_ctl00_PanePhai" class="right">
+                            <div id="TextHTML-Module" class="DefaultModule">
+                                <div class="timsan" style="border: 1px solid #ccc;">
+                                <div class="DefaultModule" id="TextHTML-Module">
+                                <div style="border: 1px solid #ccc;">
+                        <div class="defaultTitle TextHTML-Title"><span></span></div>
+
+                            <div style="background: 
+                                        url(http://media.bizwebmedia.net/Sites/112723/data/banners/search_bg.png?0);
+                                        background-repeat: no-repeat;padding-left: 7px;">
+                            <p style=" "><b>Chọn loại sân</b><br>
+                                <select class="chonloaisan">
+                                    <option value="00">5 người</option>
+                                    <option value="01">7 người</option>
+                                    <option value="02">9 người</option>
+                                    <option value="03">11 người</option>
+                                </select>
+                            </p>
+
+                            <p><b>Chọn ngày&nbsp; </b> <br>
+                                <select class="chonngay">
+                                    <option value="00">Thứ 2</option>
+                                    <option value="01">Thứ 3</option>
+                                    <option value="02">Thứ 4</option>
+                                    <option value="03">Thứ 5</option>
+                                    <option value="04">Thứ 6</option>
+                                    <option value="05">Thứ 7</option>
+                                    <option value="06">Chủ nhật</option>
+                                </select>
+                            </p>
+
+                            <p style=" "><b>Khung giờ</b><br>
+                                <select class="chongio1">
+                                    <option value="00">05h00 - 06h30</option>
+                                    <option value="01">06h30 - 08h00</option>
+                                    <option value="02">08h00 - 09h30</option>
+                                    <option value="03">09h30 - 11h00</option>
+                                    <option value="04">11h00 - 12h30</option>
+                                    <option value="05">13h00 - 14h30</option>
+                                    <option value="06">14h30 - 16h00</option>
+                                    <option value="07">16h00 - 17h30</option>
+                                    <option value="08">17h30 - 19h00</option>
+                                    <option value="09">19h00 - 20h30</option>
+                                    <option value="10">20h30 - 22h00</option>
+                                    <option value="11">22h00 - 23h30</option>
+                                </select>
+                            </p>
+                            <button type="button"><b>Tìm kiếm</b></button>
+                             </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+    <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Quản lý sân</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <div class="row">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3>Tìm kiếm người dùng</h3>
+                            <form role="form">
+                                <div class="form-group input-group">
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                                <!-- /.col-lg-6 (nested) -->
+                    </div>
+                            <!-- /.row (nested) -->
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Quản Lý Sân
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="dataTable_wrapper">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th class="center">Mã sân</th>
+                                            <th>Tên sân</th>
+                                            <th>Địa chỉ</th>
+                                            <th>Số lượng sân</th>
+                                            <th>Loại sân (người)</th>
+                                            <th>Mở cửa</th>
+                                            <th>Giờ mở-Kết thúc</th>
+                                            <th>Thao tác</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="">
+                                            <td class="center">101</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">102</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">103</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">104</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">105</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">106</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">107</td>
+                                            <td>Chuyên Việt</td>
+                                            <td>266 Âu Cơ,Hòa Khánh,Liên chiểu</td>
+                                            <td>6</td>
+                                            <td>5,7,9,11</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-23h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">108</td>
+                                            <td>Sân MU</td>
+                                            <td>894 Phạm Như Xương,Hòa Khánh</td>
+                                            <td>3</td>
+                                            <td>5,7</td>
+                                            <td>Thứ 3-Chủ nhật</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>   
+                                        </tr>
+                                        <tr class="">
+                                            <td class="center">109</td>
+                                            <td>Ngọc Thạch</td>
+                                            <td>117 Nam Cao,Hòa Khánh,Liên chiểu</td>
+                                            <td>5</td>
+                                            <td>5,7,9</td>
+                                            <td>Hàng ngày</td>
+                                            <td>6h-21h30</td>
+                                            <td class="center">
+                                                <a href="">Details</a>|<a href="">Sửa</a>|<a href="">Xóa</a>
+                                            </td>   
+                                        </tr>
+                                        
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+    </div>
+    <!-- /#wrapper -->
+        
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+                responsive: true
+        });
+    });
+    </script>
+
+</body>
+
+</html>
