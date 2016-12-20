@@ -1,5 +1,0 @@
-<p>
-    <?php
-    echo "Nguyen Thi My.\n";
-    ?>
-</p>
