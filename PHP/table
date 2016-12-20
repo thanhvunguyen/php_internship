@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<div class="container">
+<div class="row">
+<div class="table table-hover table-bordered">
+    
+
+    <table  class="table">
+        <thead>
+                <tr>
+                    
+                  <th> Tên Sản Phẩm </th>
+                  <th> ID </th>
+                   <th> Xếp Hạng Sản Phẩm</th>
+                  <th> Nơi Nhập </th>
+                  <th> Ngày Nhập  </th>
+                    <td> </td>
+                </tr>
+        </thead>
+         <tbody>
+         <tr>
+        <td><span style = "color: white; background-color: #b00cff; "> Quần Jeans </td>
+        <td >1234 </td>
+        <td > Tốt </td>
+        <td >Thành phố<span style ="color : red">Hồ Chí Minh </span> </td>
+        <td>1/12/2016 </td>
+        <td><button class="btn btn-info">Add </button><button class="btn btn-info"> Edit</button><button class="btn btn-info"> Delete</button>
+    </tr>
+    <tr>
+        <td><span style="color: white;background-color: red; "> Chân Váy Ôm </td>
+        <td> 1235</td>
+        <td >Tốt</td>
+        <td>Thành phố <span style ="color : red">Hồ Chí Minh </span></td>
+        <td > 2/11/2016</td>
+        <td><button class="btn btn-info">Add </button><button class="btn btn-info"> Edit</button><button class="btn btn-info"> Delete</button>
+    </tr>
+
+    <tr>
+        <td><span style="color: white;background-color: red;" > Váy Ôm Xẻ Tà </td>
+        <td>  1236</td>
+        <td> Tốt</td>
+        <td > Thành phố <span style ="color : red">Hồ Chí Minh</span> </td>
+        <td>1/12/2016</td>
+      <td><button class="btn btn-info">Add </button><button class="btn btn-info"> Edit</button><button class="btn btn-info"> Delete</button>
+    </tr>
+
+    <tr>
+        <td><span style="color: white;background-color: blue;">Áo Thun </td>
+        <td> 1237</td>
+        <td> Tốt</td>
+        <td> Đà Lạt</td>
+        <td>2/12/2016</td>
+        <td><button  class="btn btn-info">Add </button><button class="btn btn-info"> Edit</button><button class="btn btn-info"> Delete</button>
+    </tr>
+
+    <tr>
+        <td><span style="color: white;background-color: blue;"> Áo Gió</td>
+        <td>1238</td>
+        <td>Tốt</td>
+        <td>Đà Lạt</td>
+        <td>3/12/2016</td>
+        <td><button class="btn btn-info">Add </button><button class="btn btn-info"> Edit</button><button class="btn btn-info"> Delete</button>
+    </tr>
+    </tbody>
+     </table>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
