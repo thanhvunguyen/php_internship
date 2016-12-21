@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FIELDS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="module">
+             
+             <div class="module-body">
+                 <div class="col-lg-6">
+                 <h2><span>Thông tin cá nhân</span></h2>
+                <form  role="form" action="ThongTinCaNhan" method ="post" name="addThongTin" id="addThongTin">
+                     <div class="form-group">
+                         <label>ID</label>
+                         <input class="form-control" type="text" name="ID" value="" maxlength="50" required= "required" placeholder="nhập ID">   
+                     </div>
+                    <div class="form-group">
+                         <label>Họ Tên</label>
+                         <input class="form-control" type="text" name="Name" value="" minlength="10"  maxlength="11" required= "required" placeholder="nhập Họ tên">   
+                    </div>
+                     <div class="form-group">
+                         <label>Ngày Sinh</label>
+                         <input class="form-control" type="date" name="birthday" value="" required= "required" placeholder="Nhập ngày">   
+                    </div>
+                    <br>
+                    <div class="form-group">
+                         <label>Email</label>
+                         <input class="form-control" type="text" name="email" value="" placeholder="nhập Email">   
+                    </div>
+                    
+                    <div class="form-group">
+                         <label>Ghi chú</label>
+                         <input class="form-control"  type="note" rows="5" cols="50" name="description" value="" placeholder="nhập Ghi chú...">
+                        
+                    </div>
+                    <div class ="form-group">
+                        <button name="button" value="OK" type="button">OK</button>
+                        <button name="button" value="OK" type="button">Cancel</button>                
+                
+                    </div>
+                    
+                </form>
+                </div>
+             </div> <!-- End .module-body -->
+        </div>
+        
+        <!-- /#page-wrapper -->
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
