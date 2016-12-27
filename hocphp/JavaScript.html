@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" type="text/css" href="hocphp/jquery-3.1.1.min.js">
+<link href="bootstrap.min.css" rel="stylesheet">
+
+<div class="header"><h3>In put two numbers</h3></div>
+<div class="form-group">
+    <label class="header"> <h4>in put number a: </label>
+     <input class="form-control" type="number" name="a" value="">   
+</div>
+<div class="form-group">
+    <label class="header"> <h4>in put number b: </label>
+     <input class="form-control" type="number" name="b" value="">   
+</div>
+<button class="try-it" onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = Math.max(5, 10);
+}
+</script>
+
+</body>
+</html>
