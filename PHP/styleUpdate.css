@@ -1,0 +1,17 @@
+.customize {
+    background-color: #EEEEEE;
+    color: #6C5E5E;
+}
+
+h1 {
+    color: #19D816;
+    font-size: 32px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+.matchParent {
+    width: 100%;
+}
