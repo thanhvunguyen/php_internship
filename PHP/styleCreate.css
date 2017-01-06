@@ -1,0 +1,24 @@
+.button_left {
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.button_right {
+    padding: 7px;
+}
+
+.rowCustomize {
+    border-bottom: 1px solid #F3E2E2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.customize {
+    background-color: #EEEEEE;
+    color: gray;
+}
+
+.footer {
+    padding: 8px;
+    margin-bottom: 10px;
+}
